@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 public class QueryProcessorTest {
 
-    QueryProcessor queryProcessor = new QueryProcessor();
+    private QueryProcessor queryProcessor = new QueryProcessor();
 
     @Test
     public void returnsEmptyStringIfCannotProcessQuery() throws Exception {
@@ -24,4 +24,10 @@ public class QueryProcessorTest {
     public void isNotCaseSensitive() throws Exception {
         assertThat(queryProcessor.process("shakespeare"), containsString("playwright"));
     }
+/**
+    @Test
+    public  void knowsAboutFederer() throws Exception {
+        assertThat(queryProcessor.process("Roger Federer"), containsString("tennis"));
+    }
+    **/
 }

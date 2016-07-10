@@ -8,8 +8,9 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
-        if (query.toLowerCase().contains("kwok cheung")) {
-            return "Kwok-Ho Cheung is a DPhil student in Computer Science, at the University of Oxford.";
+        if (query.toLowerCase().contains("roger federer")) {
+            return "Roger Federer is a Swiss tennis player, widely regarded by many as the GOAT " +
+                    "- the greatest of all time.";
         }
         return "";
     }
