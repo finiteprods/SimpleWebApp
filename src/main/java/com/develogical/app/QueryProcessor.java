@@ -10,7 +10,7 @@ public class QueryProcessor {
         }
         if (query.toLowerCase().contains("roger federer")) {
             return "Roger Federer is a Swiss tennis player, widely regarded by many as the GOAT " +
-                    "- the greatest of all time.";
+                    "- the greatest of all time. He holds 17 grand slam titles.";
         }
         return "";
     }
