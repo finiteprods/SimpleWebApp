@@ -7,7 +7,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class QueryProcessorTest {
-
     private QueryProcessor queryProcessor = new QueryProcessor();
 
     @Test
